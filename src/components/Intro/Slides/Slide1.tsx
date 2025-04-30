@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './Slide.module.scss';
 import slide1 from '../assets/slide1.png';
 

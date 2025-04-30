@@ -1,4 +1,3 @@
-import React from 'react';
 import s from './Slide.module.scss';
 export const Slide2 = () => {
   return (
