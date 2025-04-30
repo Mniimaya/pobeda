@@ -1,0 +1,67 @@
+.title {
+  font-family: Pobeda;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(227, 32, 0, 1);
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-family: Pobeda;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 253, 252, 1);
+  margin-bottom: 15px;
+}
+
+.author {
+  font-family: Pobeda;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 253, 252, 1);
+}
+
+.quoteWrapper {
+  display: inline-flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  height: 100%;
+  transform: translateX(0);
+  max-width: 80vw;
+}
+
+.slideWrapper {
+  flex-shrink: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+  position: relative;
+  padding-top: 14vh;
+}
+
+.slide1Img {
+  position: absolute;
+  width: auto;
+  height: 60vh;
+  bottom: 0;
+}
